@@ -26,6 +26,6 @@ entries:
     name: shipy
     type: application
     urls:
-    - https://MCesarczyk.github.io/helm-chart-test/shipy/shipy-1.2.0.tgz
+    - https://mcesarczyk.github.io/helm-chart-test/shipy/shipy-1.2.0.tgz
     version: 1.2.0
 generated: "2026-09-06T20:42:24.654198+02:00"
