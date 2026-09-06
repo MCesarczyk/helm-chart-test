@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  shipy:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2026-09-06T20:42:24.665831+02:00"
+    dependencies:
+    - condition: provision.jaeger
+      name: jaeger
+      repository: https://jaegertracing.github.io/helm-charts
+      version: 0.56.0
+    - condition: provision.rabbitmq
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.1.5
+    - condition: provision.mssql-linux
+      name: mssql-linux
+      repository: https://dnaprawa.github.io/helm-charts
+      version: 1.0.8
+    - name: shipy-common
+      repository: file://charts/shipy-common
+      version: 1.2.0
+    description: A Helm chart for webapp of Shipy
+    digest: 8eb1fcc1bf561998cd29202ccb226af43372ede1f52f0fdc5813d5ccbbf7b67e
+    icon: https://helm.sh/img/helm.svg
+    name: shipy
+    type: application
+    urls:
+    - https://MCesarczyk.github.io/helm-chart-test/shipy/shipy-1.2.0.tgz
+    version: 1.2.0
+generated: "2026-09-06T20:42:24.654198+02:00"
